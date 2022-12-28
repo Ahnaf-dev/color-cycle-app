@@ -1,7 +1,7 @@
 # Color Cycle App
 Select a starting color and an increment value to watch the website change colors.
 
-[Live Link](https://charity-finder-app.netlify.app/)
+[Live Link](https://color-cyclee-app.netlify.app/)
 
 ## Technologies
 
