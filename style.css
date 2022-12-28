@@ -1,3 +1,8 @@
+:root {
+  --increment: 10;
+  --firstColorComponent: 51 + var(--increment);
+  --initailColor: 0;
+}
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +16,8 @@ html {
 body {
   font-size: 1.8rem;
   line-height: 1.5;
+  background-color: gray;
+  color: white;
 }
 
 a {
@@ -20,4 +27,46 @@ a {
 main h1 {
   text-align: center;
   margin: 3rem 0;
+}
+
+form {
+  position: absolute;
+  left: 5rem;
+  top: 9rem;
+  z-index: 100;
+  background-color: black;
+  padding: 2rem;
+}
+
+.form__field label {
+  display: block;
+  color: white;
+}
+
+.form__field input {
+  width: 10rem;
+  padding: 1rem;
+}
+
+.form__field {
+  margin-bottom: 1rem;
+}
+
+button {
+  max-width: 30rem;
+  width: 100%;
+  padding: 2rem;
+  /* outline: none; */
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  background-color: rgb(21, 110, 110);
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+button:hover {
+  color: cyan;
+  background-color: rgb(36, 18, 117);
 }

@@ -11,7 +11,50 @@
   <body>
     <main>
       <h1>Color Cycle</h1>
-      <div class="input__container"></div>
+      <form>
+        <h2>Set Color</h2>
+        <div class="form__field">
+          <label for="R">Red Value</label>
+          <input
+            placeholder="0-255 Digit"
+            id="R"
+            type="number"
+            min="0"
+            max="255"
+          />
+        </div>
+        <div class="form__field">
+          <label for="B">Blue Value</label>
+          <input
+            placeholder="0-255 Digit"
+            id="B"
+            type="number"
+            min="0"
+            max="255"
+          />
+        </div>
+        <div class="form__field">
+          <label for="G">Green Value</label>
+          <input
+            placeholder="0-255 Digit"
+            id="G"
+            type="number"
+            min="0"
+            max="255"
+          />
+        </div>
+        <div class="form__field">
+          <label for="inc">Cycle Increment Value</label>
+          <input
+            placeholder="0-20 Digit"
+            id="inc"
+            type="number"
+            min="0"
+            max="20"
+          />
+        </div>
+        <button type="submit">Start Color Cycle</button>
+      </form>
     </main>
   </body>
 </html>
